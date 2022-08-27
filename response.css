@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+    .nav-item {
+      display: none;
+    }
+    .header-text h2 {
+      font-size: 2em;
+    }
+  
+    .companies {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      margin: 0;
+      text-align: center;
+    }
+  
+    .blog-card {
+      flex-direction: column;
+    }
+  
+    .blog-bottom {
+      position: static;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .download-section {
+      justify-content: space-around;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .download-content h1 {
+      font-size: 2em;
+    }
+  
+    .download-section {
+      gap: 1em;
+      height: fit-content;
+    }
+  
+    .download-email {
+      flex-direction: column;
+      align-items: center;
+      background-color: #f8f8fa;
+      gap: 1em;
+    }
+  
+    .download-email input {
+      width: 90%;
+      background-color: #e9edff;
+      border-radius: 30px;
+    }
+  
+    .footer-section {
+      flex-direction: column;
+      padding: 20px;
+      height: fit-content;
+    }
+  }
+  
+  @media (max-width: 976px) {
+    .faq-image {
+      display: none;
+    }
+    .header-image {
+      display: none;
+    }
+  
+    .download-section {
+      flex-direction: column;
+    }
+  }
